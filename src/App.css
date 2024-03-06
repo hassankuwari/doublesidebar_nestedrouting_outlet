@@ -1,0 +1,14 @@
+.main-container {
+    display: flex;
+}
+
+.sidebar-container {
+    background-color: bisque;
+    width: 250px;
+    height: 100vh;
+}
+
+.body-container {
+    background-color: skyblue;
+    width: calc(100% - 250px);
+}
